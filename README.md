@@ -27,5 +27,5 @@ Run tests: npm test
 
 
 Postman collection of APIs
-https://api.postman.com/collections/24349591-6b9fa35c-b49a-4be2-94b1-db978fbc3c76?access_key=PMAT-01JCZCEPBNFGC6YRZF7605SRX4
+Link to postman collection already sent.
 Collection of API requests also located in request.rest file to run locally.
