@@ -1,0 +1,60 @@
+################################################## USERS ##################################################
+### Register user
+POST http://localhost:3001/api/auth/signup
+Content-Type: application/json
+
+{
+    "name": "maaaaaa",
+    "email": "maaaaa@email.com",
+    "password": "testtest"
+}
+
+### Login user
+POST http://localhost:3001/api/auth/login
+Content-Type: application/json
+
+{
+    "email": "tomaa@email.com",
+    "password": "testtest"
+}
+
+### Logout user
+POST http://localhost:3001/api/auth/logout
+
+################################################## NOTES ##################################################
+### Get all notes
+GET http://localhost:3001/api/notes
+
+### Get queried notes
+GET http://localhost:3001/api/search?q=study
+
+### Create note
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "name": "to study",
+    "content": "test21"
+}
+
+### Get note
+GET http://localhost:3001/api/notes/673aff002a1dca2d49d00d9f
+
+### Update note
+PUT http://localhost:3001/api/notes/673aff002a1dca2d49d00d9f
+Content-Type: application/json
+
+{
+    "content": "test53"
+}
+
+### Delete note
+DELETE http://localhost:3001/api/notes/673a70bb1ae7c730f76aa2ba
+
+### Share note
+POST http://localhost:3001/api/notes/673aff002a1dca2d49d00d9f/share
+Content-Type: application/json
+
+{
+    "userToShare": "673aff9a2a1dca2d49d00db6"
+}
