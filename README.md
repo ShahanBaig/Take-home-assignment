@@ -14,12 +14,18 @@ Used as the runtime environment due to its asynchronous, non-blocking I/O model,
 Chosen for its simplicity and speed in testing. With built-in features like mocking, coverage reporting, and snapshot testing, Jest streamlines test writing and ensures reliable API validation.
 
 Instructions
-
+Clone repo via github: git clone https://github.com/ShahanBaig/Take-home-assignment.git
+Navigate to root of project: cd path/to/project
+Install dependencies: npm i
+Start app: node index.js
 
 
 Any necessary setup files or scripts to run your code locally or in a test environment.
+Run app: npm start
+Run app in dev mode: npm run dev
+Run tests: npm test
 
 
-
-Collection of APIs located in request.rest file
-Utilized for manually testing APIs during development. Its simplicity allows for quick creation of HTTP requests and responses, providing a clear and easy-to-maintain method for validating endpoint functionality.
+Postman collection of APIs
+https://api.postman.com/collections/24349591-6b9fa35c-b49a-4be2-94b1-db978fbc3c76?access_key=PMAT-01JCZCEPBNFGC6YRZF7605SRX4
+Collection of API requests also located in request.rest file to run locally.
